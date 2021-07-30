@@ -5,4 +5,6 @@ Baseado nos cursos de Design Patterns da Alura
 
 - Pacote imposto aplica o padrão *strategy*
 
-- Pacote desconto aplica o padrão *chain of responsability*
+- Pacote desconto aplica o padrão *chain of responsability* e *template method*
+
+- Pacote orcamente aplica o padrão *state*

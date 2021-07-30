@@ -22,12 +22,12 @@ public class CalculadoraDeDescontosTeste {
     @Test
     void deveDevolverDescontoPorValor (){
         Orcamento orcamentoTeste = new Orcamento(new BigDecimal("1000.0"), 1);
-        assertEquals(new BigDecimal("100.000"), calculadoraDeDescontos.calcular(orcamentoTeste));
+        assertEquals(new BigDecimal("100.00"), calculadoraDeDescontos.calcular(orcamentoTeste));
     }
 
     @Test
     void deveDevolverDescontoZero (){
-        Orcamento orcamentoTeste = new Orcamento(new BigDecimal("50.0"), 1);
+        Orcamento orcamentoTeste = new Orcamento(new BigDecimal("500"), 1);
         assertEquals(new BigDecimal("0"), calculadoraDeDescontos.calcular(orcamentoTeste));
     }
 }

@@ -10,7 +10,6 @@ public class CalculadoraDeDescontos {
         Desconto desconto = new DescontoOrcamentoQuantidadeItens(
                 new DescontoOrcamentoValor(
                         new SemDesconto()));
-
         return desconto.calcular(orcamento);
     }
 
