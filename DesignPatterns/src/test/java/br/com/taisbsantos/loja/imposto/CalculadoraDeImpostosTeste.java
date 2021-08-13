@@ -1,8 +1,11 @@
-package br.com.taisbsantos.loja.imposto;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+package test.java.br.com.taisbsantos.loja.imposto;
+import static org.junit.Assert.assertEquals;
 
+import br.com.taisbsantos.loja.imposto.CalculadoraDeImpostos;
+import br.com.taisbsantos.loja.imposto.ICMS;
+import br.com.taisbsantos.loja.imposto.ISS;
 import br.com.taisbsantos.loja.orcamento.Orcamento;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.math.BigDecimal;
 

@@ -1,14 +1,11 @@
-package br.com.taisbsantos.loja.desconto;
+package test.java.br.com.taisbsantos.loja.desconto;
 
 import br.com.taisbsantos.loja.desconto.CalculadoraDeDescontos;
-import br.com.taisbsantos.loja.desconto.DescontoOrcamentoQuantidadeItens;
 import br.com.taisbsantos.loja.orcamento.Orcamento;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.math.BigDecimal;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import static org.junit.Assert.assertEquals;
 public class CalculadoraDeDescontosTeste {
 
     private final CalculadoraDeDescontos calculadoraDeDescontos = new CalculadoraDeDescontos();
