@@ -10,3 +10,5 @@ Baseado nos cursos de Design Patterns da Alura
 - Pacote orcamento aplica o padrão *state*
 
 - Pacote pedido aplica o padrão *command* e *observer*
+
+- Pacote http aplica o padrão *adapter*
